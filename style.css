@@ -9,16 +9,16 @@
 :root {
   --black: #0a0a0a;
   --chumbo: #2d2d2d;
-  --chumbo-light: #3a3a3a;
-  --terracota: #cc4b2c;
-  --terracota-hover: #e55a3a;
-  --amarelo: #d4b87a;
+  --chumbo-light: #EAE0D0;
+  --terracota: #3B2E28;
+  --terracota-hover: #1C1B1A;
+  --amarelo: ##1C1B1A;
   --amarelo-faded: #c9b17a;
   --sangue: #8b1a1a;
   --sangue-light: #a32b2b;
-  --text: #e0d8cc;
-  --text-muted: #998e80;
-  --bg: #0a0a0a;
+  --text: #1C1B1A;
+  --text-muted: #B8332A;
+  --bg: #F7F3EB;
   --font-serif: 'Merriweather', Georgia, 'Times New Roman', serif;
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 }
@@ -64,7 +64,7 @@ a {
   left: 0;
   right: 0;
   z-index: 1000;
-  background: rgba(10, 10, 10, 0.92);
+  background: #EAE0D0;
   backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(212, 184, 122, 0.08);
   padding: 0 2rem;
@@ -431,7 +431,7 @@ a {
 }
 
 .timeline-card {
-  background: rgba(45, 45, 45, 0.35);
+  background: #E5A93B;
   border: 1px solid rgba(212, 184, 122, 0.08);
   padding: 1.5rem;
   width: 100%;
@@ -439,7 +439,7 @@ a {
 }
 
 .timeline-card:hover {
-  background: rgba(45, 45, 45, 0.55);
+  background: #C87D32;
   border-color: rgba(204, 75, 44, 0.25);
   transform: scale(1.01);
 }
@@ -502,7 +502,7 @@ a {
 }
 
 .char-card {
-  background: rgba(45, 45, 45, 0.25);
+  background: #E5A93B;
   border: 1px solid rgba(212, 184, 122, 0.06);
   padding: 2rem 1.5rem;
   transition: all 0.4s ease;
@@ -511,7 +511,7 @@ a {
 }
 
 .char-card:hover {
-  background: rgba(45, 45, 45, 0.45);
+  background: #C87D32;
   border-color: rgba(204, 75, 44, 0.2);
   transform: scale(1.02);
 }
@@ -567,7 +567,7 @@ a {
 }
 
 .tema-card {
-  background: rgba(45, 45, 45, 0.2);
+  background: #E5A93B;
   border: 1px solid rgba(212, 184, 122, 0.06);
   padding: 2rem 1.5rem;
   transition: all 0.4s ease;
@@ -575,7 +575,7 @@ a {
 }
 
 .tema-card:hover {
-  background: rgba(45, 45, 45, 0.4);
+  background: #C87D32;
   border-color: rgba(204, 75, 44, 0.2);
   transform: scale(1.02);
 }
